@@ -12,20 +12,32 @@
         <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     </head>
     <body>
-        <div data-role="page">
+        <div data-role="page" id="page1">
+            <!--  This is page 1 -->
             <div data-role="header">
-                <h1>My mobile Page</h1>
+                <h1>Header Page1</h1>
                 </div>
 
                 <div role="main" class="ui-content">
-                    <p>Click the button bellow to test the mobile site</p>
-                    <button id="test" onclick="('Testing Successfull')" class="ui-btn"> Test </button>
+                    <p>This is page1 click the button bellow to test the mobile site</p>
+                    <button id="test" onclick="alert('Testing Successfull')" class="ui-btn"> Test </button>
                 </div>
-                    <p>Hello world</p>
+                   <div data-role="footer">
+                       <h1>Footer page1</h1>
                     </div>
-                    <div data-role="footer">
-                        <h1>Bye world</h1>
-                    </div>
+        </div>
+
+        <!-- This is page 2 --->
+        <div data-role="page" id="page2">
+            <div data-role="header">
+                <h1>Header page2</h1>
+                 <div role="main" class="ui-content">
+                    <p>This is page1 click the button bellow to test the mobile site</p>
+                    <a href="https://www.instagram.com/" class="ui-btn">IgLink</a>
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer page2</h1>
 
                 </div>
             </div>
